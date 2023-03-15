@@ -1,0 +1,28 @@
+section{
+    background-color: black;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    
+}
+
+h1,h2{
+    color: darkorange;
+}
+
+hr {
+    background-color: darkorange;
+    height: 2px;
+}
+
+.nav-link{
+    color: darkorange !important;
+}
+
+nav button
+{
+    color: darkorange !important;
+}
+
+
+
