@@ -1,18 +1,24 @@
+body{
+    background-color: black;
+}
+
 section{
     background-color: black;
     height: 100vh;
     display:flex;
     align-items: center;
+    margin-bottom: 15px;
     
 }
 
-h1,h2{
+h1,h2,h3{
     color: darkorange;
 }
 
 hr {
     background-color: darkorange;
     height: 2px;
+    font-weight: bolder;
 }
 
 .nav-link{
@@ -24,5 +30,29 @@ nav button
     color: darkorange !important;
 }
 
+p{
+    color: darkorange;
+}
 
+.apropos{
+    background-color: #212529;
+    border-radius: 2%;
+    width: 100%;
+}
 
+.competences{
+    background-color: #212529;
+    border-radius: 2%;
+}
+
+.skillLogo{
+    height: 40px;
+    width: 40px;
+}
+
+.skillContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+}
