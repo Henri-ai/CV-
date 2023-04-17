@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    margin:0;
 }
 
 section{
@@ -12,37 +13,35 @@ section{
 }
 
 h1,h2,h3{
-    color: darkorange;
+    color:#FFC107;
 }
 
 hr {
-    background-color: darkorange;
+    background-color: #FFC107;
     height: 2px;
     font-weight: bolder;
 }
 
 .nav-link{
-    color: darkorange !important;
+    color:#FFC107 !important;
 }
 
 nav button
 {
-    color: darkorange !important;
+    color: #FFC107 !important;
 }
 
 p{
-    color: darkorange;
+    color: #FFC107;
 }
 
 .apropos{
     background-color: #212529;
-    border-radius: 2%;
     width: 100%;
 }
 
 .competences{
     background-color: #212529;
-    border-radius: 2%;
 }
 
 .skillLogo{
