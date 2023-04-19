@@ -22,26 +22,8 @@ hr {
     font-weight: bolder;
 }
 
-.nav-link{
-    color:#FFC107 !important;
-}
-
-nav button
-{
-    color: #FFC107 !important;
-}
-
 p{
     color: #FFC107;
-}
-
-.apropos{
-    background-color: #212529;
-    width: 100%;
-}
-
-.competences{
-    background-color: #212529;
 }
 
 .skillLogo{
@@ -54,4 +36,12 @@ p{
     width: 100%;
     align-items: center;
     margin-bottom: 10px;
+}
+
+.card{
+    transition: transform .1s;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
