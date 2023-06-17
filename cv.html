@@ -1,321 +1,364 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/5b1fd06657.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <title>CV Henri</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5b1fd06657.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>CV Henri</title>
 </head>
+
 <body>
-    <!-- header -->
-    <header>
-        <!-- navbar -->
-            <nav class="navbar navbar-expand-lg bg-warning fixed-top">
-                <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="#competences">Compétences</a>
-                        <a class="nav-link" href="#formations">Mes formations/Experiences</a>
-                        <a class="nav-link" href="#projets">Mes projets</a>
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </div>
-                </div>
-                </div>
-            </nav>
-            <section>
-                <div class="col-12 text-center">
-                        <h1 class="display-4">Henri Goret</h1>
-                        <hr class="d-flex justify-content-center">
-                        <h2>Développeur web et web mobile</h2>
-                </div>
-            </section>
-        <!-- fin navbar-->
-    </header>
-    <!-- fin header -->
+  <!-- header -->
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#competences">Compétences</a>
+            <a class="nav-link" href="#formations">Mes formations/Experiences</a>
+            <a class="nav-link" href="#projets">Mes projets</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- fin navbar-->
+    <section class="name">
+      <div class="col-12 text-center">
+        <h1 class="display-4">Henri Goret</h1>
+        <hr class="d-flex justify-content-center">
+        <h2>Développeur web et web mobile</h2>
+      </div>
+    </section>
+    
+  </header>
+  <!-- fin header -->
 
-<div class="container">
-            <!-- à propos -->
-            <div class="apropos py-5 rounded bg-dark">
-                <h2 class="text-center py-3 fs-1" id="#presentation">À propos</h2>
-                <p class="fs-4 py-3 mx-4">
-                    je suis un jeune développeur web de 27 ans originaire d'Amiens.
-                    Motivé, sérieux et d'un naturel calme . Je suis à la recherche d'un stage dans ce domaine.
+  <div class="container">
+    <!-- à propos -->
+  <section>
+    <div class="apropos py-5 rounded bg-dark">
+      <h2 class="text-center py-3 fs-1" id="#presentation">À propos</h2>
+      <p class="fs-4 py-3 mx-4">
+        Je suis un jeune développeur web de 27 ans originaire d'Amiens.
+        Motivé, sérieux et d'un naturel calme. Je suis à la recherche d'un
+        apprentissage dans ce domaine.
+      </p>
+    </div>
+  </section>
+    <!-- fin à propos -->
+    <!-- compétences -->
+    <section>
+      <div class="competences my-3 rounded bg-dark">
+        <h2 id="competences" class="fs-1 text-center py-5">Mes compétences</h2>
+        <h3 class="py-3 text-center">Compétences Web</h3>
+        <!-- html -->
+        <div class="col-lg-12 d-lg-flex">
+          <div class="col-lg-6">
+            <div class="skillContainer">
+              <img class="skillLogo mx-2" src="assets/img/html-logo.png" alt="Logo HTML 5" title="Logo HTML 5">
+              <div class="progress col">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                  80%
+                </div>
+              </div>
+            </div>
+
+            <!-- fin html -->
+            <!-- css -->
+            <div class="skillContainer">
+              <img class="skillLogo mx-2" src="assets/img/logo-css.png" alt="Logo CSS" title="Logo CSS">
+              <div class="progress col">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                  role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                  60%
+                </div>
+              </div>
+            </div>
+            <!-- fin css -->
+            <!-- BOOTSTRAP -->
+            <div class="skillContainer">
+              <img class="skillLogo mx-2" src="assets/img/bootstrap-logo.png" alt="Logo BOOTSTRAP"
+                title="Logo BOOTSTRAP">
+              <div class="progress col">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                  80%
+                </div>
+              </div>
+            </div>
+            <!-- fin BOOTSTRAP -->
+            <!-- JS -->
+            <div class="skillContainer">
+              <img class="skillLogo mx-2" src="assets/img/Unofficial_JavaScript_logo_2.svg.png" alt="Logo JS"
+                title="Logo JS">
+              <div class="progress col">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                  role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                  40%
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin JS -->
+          <div class="col-lg-6">
+            <!-- PHP -->
+            <div class="skillContainer">
+              <img class="skillLogo mx-2" src="assets/img/logo-php.png" alt="Logo PHP" title="Logo PHP">
+              <div class="progress col">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                  role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                  40%
+                </div>
+              </div>
+            </div>
+            <!-- fin PHP -->
+            <!-- SQL -->
+            <div class="skillContainer">
+              <img class="skillLogo mx-2" src="assets/img/mysql-logo.png" alt="Logo SQL" title="Logo SQL">
+              <div class="progress col">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                  role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                  70%
+                </div>
+              </div>
+            </div>
+            <!-- fin SQL -->
+            <!-- Wordpress -->
+            <div class="skillContainer">
+              <img class="skillLogo mx-2" src="assets/img/Wordpress_Blue_logo.png" alt="Logo Wordpress"
+                title="Logo Wordpress">
+              <div class="progress col">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                  role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                  60%
+                </div>
+              </div>
+            </div>
+            <!-- fin Wordpress -->
+          </div>
+        </div>
+
+        <h3 class="py-3 text-center">Gestion de projet</h3>
+        <!-- trello -->
+        <div class="col-lg-12 d-lg-flex">
+          <div class="col-lg-6">
+            <div class="skillContainer">
+              <img class="skillLogo mx-2" src="assets/img/trello_logo.png" alt="Logo Trello" title="Logo Trello">
+              <div class="progress col">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                  80%
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin trello -->
+          <!-- Github -->
+          <div class="skillContainer">
+            <img class="skillLogo mx-2" src="assets/img/GitHub-logo.png" alt="Logo Github" title="Logo Github">
+            <div class="progress col">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                60%
+              </div>
+            </div>
+          </div>
+          <!--fin Github  -->
+        </div>
+        <h3 class="py-3 text-center">Web Design</h3>
+        <!-- Figma -->
+        <div class="col-lg-6">
+          <div class="skillContainer">
+            <img class="skillLogo mx-2" src="assets/img/figma-logo.png" alt="Logo Figma" title="Logo Figma">
+            <div class="progress col">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                70%
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fin Figma -->
+
+        <h3 class="py-3 text-center">Autres Compétences</h3>
+        <!-- VSCode -->
+        <div class="col-lg-12 d-lg-flex">
+          <div class="col-lg-6">
+            <div class="skillContainer">
+              <img class="skillLogo mx-2" src="assets/img/Visual_Studio_Code-logo.png" alt="Logo VSCode"
+                title="Logo VSCode">
+              <div class="progress col">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                  role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                  70%
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin VSCode -->
+          <!-- Divi -->
+          <div class="skillContainer mb-5">
+            <img class="skillLogo mx-2" src="assets/img/logo_divi.png" alt="Logo Divi" title="Logo Divi">
+            <div class="progress col">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
+                role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                80%
+              </div>
+            </div>
+          </div>
+          <!-- fin Divi -->
+        </div>
+      </div>
+    </section>
+    <!-- fin compétences -->
+
+    <!-- expérience/formation -->
+    <section>
+      <h2 class="text-center fs-1 py-5" id="formations">
+        Mes formations/expériences
+      </h2>
+      <div class="experiences text-center">
+        <div class="d-lg-flex flex-lg-wrap justify-content-lg-around">
+          <div class="d-flex justify-content-center my-3">
+            <div class="card bg-dark text-white" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Préparation au titre professionnel "Développeur Web et Web
+                  Mobile"
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">2023</h6>
+                <p class="card-text">
+                  La Manu, l'École des métiers du Numérique - Amiens.
                 </p>
+              </div>
             </div>
-            <!-- fin à propos -->
-            <!-- compétences -->
-            <div class="competences my-3 rounded bg-dark">
-                <h2 id="competences" class="fs-1 text-center py-5">Mes compétences</h2>
-                <h3 class="py-3 text-center">Compétences Web</h3>
-                <!-- html -->
-            <div class="col-lg-12 d-lg-flex">
-            <div class="col-lg-6">
-                <div class="skillContainer">
-                    <img class="skillLogo mx-2" src="assets/img/html-logo.png" alt="Logo HTML 5" title="Logo HTML 5">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 80%">80%
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- fin html -->
-                <!-- css -->
-                <div class="skillContainer">
-                    <img class="skillLogo mx-2" src="assets/img/logo-css.png" alt="Logo CSS" title="Logo CSS">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 60%">60%
-                        </div>
-                    </div>
-                </div>
-                <!-- fin css -->
-                <!-- BOOTSTRAP -->
-                <div class="skillContainer">
-                    <img class="skillLogo mx-2" src="assets/img/bootstrap-logo.png" alt="Logo BOOTSTRAP" title="Logo BOOTSTRAP">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 80%">80%
-                        </div>
-                    </div>
-                </div>
-                <!-- fin BOOTSTRAP -->
-                <!-- JS -->
-                <div class="skillContainer">
-                    <img class="skillLogo mx-2" src="assets/img/Unofficial_JavaScript_logo_2.svg.png" alt="Logo JS" title="Logo JS">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 40%">40%
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <!-- fin JS -->
-                <div class="col-lg-6">
-                <!-- PHP -->
-                <div class="skillContainer">
-                    <img class="skillLogo mx-2" src="assets/img/logo-php.png" alt="Logo PHP" title="Logo PHP">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 40%">40%
-                        </div>
-                    </div>
-                </div>
-                <!-- fin PHP -->
-                <!-- SQL -->
-                <div class="skillContainer">
-                    <img class="skillLogo mx-2" src="assets/img/mysql-logo.png" alt="Logo SQL" title="Logo SQL">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 40%">40%
-                        </div>
-                    </div>
-                </div>
-                <!-- fin SQL -->
-                <div class="skillContainer">
-                    <img class="skillLogo mx-2" src="assets/img/Wordpress_Blue_logo.png" alt="Logo Wordpress" title="Logo Wordpress">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 70%">70%
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
+          </div>
 
-                <h3 class="py-3 text-center">Gestion de projet</h3>
-                <!-- trello -->
-            <div class="col-lg-12 d-lg-flex">
-                <div class="col-lg-6">
-                <div class="skillContainer">
-                    <img class="skillLogo mx-2" src="assets/img/trello_logo.png" alt="Logo Trello" title="Logo Trello">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 80%">80%
-                        </div>
-                    </div>
-                </div>
+          <div class="d-flex justify-content-center my-3">
+            <div class="card bg-dark text-white" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Ms développement d'applications</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  D'octobre 2022 à décembre 2022
+                </h6>
+                <p class="card-text">Afpa - Amiens.</p>
+              </div>
             </div>
-                <!-- fin trello -->
-                <!-- Github -->
-                <div class="skillContainer">
-                    <img class="skillLogo mx-2" src="assets/img/GitHub-logo.png" alt="Logo Github" title="Logo Github">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 60%">60%
-                        </div>
-                    </div>
-                </div>
-                <!--fin Github  -->
-            
+          </div>
+
+          <div class="d-flex justify-content-center my-3">
+            <div class="card bg-dark text-white" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Ms développement Full Stack</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  D'août 2022 à octobre 2022
+                </h6>
+                <p class="card-text">Afpa - Amiens.</p>
+              </div>
             </div>
-                <h3 class="py-3 text-center">Web Design</h3>
-                <!-- Figma -->
-            <div class="col-lg-6">
-                <div class="skillContainer">
-                    <img class="skillLogo mx-2" src="assets/img/figma-logo.png" alt="Logo Figma" title="Logo Figma">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 60%">60%
-                        </div>
-                    </div>
-                </div>
+          </div>
+
+          <div class="d-flex justify-content-center my-3">
+            <div class="card bg-dark text-white" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Ms développement et intégration web</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  De juin 2022 à août 2022
+                </h6>
+                <p class="card-text">Afpa - Amiens.</p>
+              </div>
             </div>
-                <!-- fin Figma -->
+          </div>
 
-                <h3 class="py-3 text-center">Autres Compétences</h3>
-                <!-- VSCode -->
-            <div class="col-lg-12 d-lg-flex">
-                <div class="col-lg-6">
-                <div class="skillContainer">
-                    <img class="skillLogo mx-2" src="assets/img/Visual_Studio_Code-logo.png" alt="Logo VSCode" title="Logo VSCode">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 70%">70%
-                        </div>
-                    </div>
-                </div>
-                </div>
-                <!-- fin VSCode -->
-                <!-- Divi -->
-                <div class="skillContainer mb-5">
-                    <img class="skillLogo mx-2" src="assets/img/logo_divi.png" alt="Logo Divi" title="Logo Divi">
-                    <div class="progress col">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-black"
-                            role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 80%">80%
-                        </div>
-                    </div>
-                </div>
-                <!-- fin Divi -->
+          <div class="d-flex justify-content-center my-3 mx-2">
+            <div class="card bg-dark text-white" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Apprentissage Cap solier moquettiste</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  De septembre 2018 à août 2019
+                </h6>
+                <p class="card-text">Entreprise Ledoux Freddy - Amiens.</p>
+              </div>
             </div>
-        </div>    
-            <!-- fin compétences -->
+          </div>
 
-            <!-- expérience/formation -->
-            <h2 class="text-center fs-1 py-5" id="formations">Mes formations/expériences</h2>
-            <div class="experiences text-center">
-            <div class="d-lg-flex flex-lg-wrap justify-content-lg-around">
-                <div class="d-flex justify-content-center my-3">
-                <div class="card bg-dark text-white " style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Préparation au titre professionnel "Développeur Web et Web Mobile"</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">2023</h6>
-                        <p class="card-text">La Manu, l'École des métiers du Numérique - Amiens.</p>
-                    </div>
-                </div>
-                </div>
-
-                <div class="d-flex justify-content-center my-3">
-                    <div class="card bg-dark text-white" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Ms développement d'applications</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">D'octobre 2022 à décembre 2022</h6>
-                            <p class="card-text">Afpa - Amiens.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex justify-content-center my-3">
-                    <div class="card bg-dark text-white" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Ms développement Full Stack</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">D'août 2022 à octobre 2022</h6>
-                            <p class="card-text">Afpa - Amiens.</p>
-                        </div>
-                    </div>
-                </div>
-
-                    <div class="d-flex justify-content-center my-3">
-                        <div class="card bg-dark text-white" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Ms développement et intégration web</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">De juin 2022 à août 2022</h6>
-                                <p class="card-text">Afpa - Amiens.</p>
-                            </div>
-                        </div>
-                    </div>
-            
-            
-                    <div class="d-flex justify-content-center my-3 mx-2">
-                        <div class="card bg-dark text-white" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Apprentissage Cap solier moquettiste</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">De septembre 2018 à août 2019</h6>
-                                <p class="card-text">Entreprise Ledoux Freddy - Amiens.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex justify-content-center my-3">
-                        <div class="card bg-dark text-white" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Peintre en bâtiment</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">De juin 2018 à août 2018</h6>
-                                <p class="card-text">Entreprise Ledoux Freddy - Amiens.</p>
-                            </div>
-                        </div>
-                    </div>
+          <div class="d-flex justify-content-center my-3">
+            <div class="card bg-dark text-white" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Peintre en bâtiment</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  De juin 2018 à août 2018
+                </h6>
+                <p class="card-text">Entreprise Ledoux Freddy - Amiens.</p>
+              </div>
             </div>
+          </div>
         </div>
-            <!-- fin expérience/formation -->
-            <!-- mes projets -->
-        <h2 id="projets" class="fs-1 py-5 text-center">Mes projets</h2>
-        <div class="projets text-center">
-                <div class="row d-flex justify-content-center">
-                    <div class="card bg-dark mx-3 my-3" style="width: 18rem;">
-                        <a href="https://henri-ai.github.io/shifumi/"><img id="imgShifumi" class="card-img-top img-fluid py-3" src="assets/img/screenShiFuMi.jpg" alt="screen shifumi" title="screen shifumi"></a>
-                        <div class="card-body">
-                            <p class="card-text">Création d'un jeu de Shifumi</p>
-                        </div>
-                    </div>
-                    <div class="card bg-dark mx-3 my-3" style="width: 18rem;">
-                        <a href="https://www.lesvieillescharrettes.go.yo.fr/"><img id="imgLesvieillescharrettes" class="card-img-top img-fluid py-3" src="assets/img/screenVieillesCharrettes.jpg" alt="screen Vieilles Charrettes" title="screen Vieilles Charrettes"></a>
-                        <div class="card-body">
-                            <p class="card-text">Création d'un site vitrine sur un festival de musique</p>
-                        </div>
-                    </div>
-                    
-                </div>
+      </div>
+    </section>
+    <!-- fin expérience/formation -->
+    <!-- mes projets -->
+    <section>
+      <h2 id="projets" class="fs-1 py-5 text-center">Mes projets</h2>
+      <div class="projets text-center pb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="card bg-dark mx-3 my-3" style="width: 18rem">
+            <a href="https://henri-ai.github.io/shifumi/"><img id="imgShifumi" class="card-img-top img-fluid py-3"
+                src="assets/img/screenShiFuMi.jpg" alt="screen shifumi" title="screen shifumi"></a>
+            <div class="card-body">
+              <p class="card-text">Création d'un jeu de Shifumi</p>
+            </div>
+          </div>
+          <div class="card bg-dark mx-3 my-3" style="width: 18rem">
+            <a href="https://www.lesvieillescharrettes.go.yo.fr/"><img id="imgLesvieillescharrettes"
+                class="card-img-top img-fluid py-3" src="assets/img/screenVieillesCharrettes.jpg"
+                alt="screen Vieilles Charrettes" title="screen Vieilles Charrettes"></a>
+            <div class="card-body">
+              <p class="card-text">
+                Création d'un site vitrine sur un festival de musique
+              </p>
+            </div>
+          </div>
         </div>
-            <!-- fin mes projets -->
-</div>
+      </div>
+    </section>
+    <!-- fin mes projets -->
+  </div>
 
-<footer>
-            <!-- contact -->
-        <div class="contact text-center bg-dark text-white rounded pb-3">
-            <h2 id="contact" class="fs-1">Contact</h2>
-            <p>
-                Mon profil a retenu votre attention ? N'hésitez pas à me contacter par mail ou par téléphone.
-                Je suis entiérement à votre disposition.
-            </p>
-            <button type="button" class="btn btn-info"><a class="text-decoration-none text-white" href="mailto:henrigoret@hotmail.com">Envoyer un mail</a></button>
-            <button type="button" class="btn btn-info"><a class="text-decoration-none text-white" href="tel:+33643557067">Appeler</a></button>
-            <button class="btn btn-info"><a class="text-decoration-none text-white"  href="">Mon cv papier</a></button>
-            <a href="https://github.com/Henri-ai" class="offset-9"><i class="fa-brands fa-github fa-2xl " style="color: #ffc107;"></i></a>
-        </div>
-            <!-- fin contact -->
-</footer>
+  <footer>
+    <!-- contact -->
+    <div class="contact text-center bg-dark text-white rounded py-3">
+      <h2 id="contact" class="fs-1">Contact</h2>
+      <p>
+        Mon profil a retenu votre attention ? N'hésitez pas à me contacter par
+        mail ou par téléphone. Je suis entiérement à votre disposition.
+      </p>
+          <a class="text-decoration-none text-black btn btn-warning" role="button" href="mailto:henrigoret@hotmail.com">Envoyer un mail</a>
+          <a class="text-decoration-none text-black btn btn-warning" role="button" href="tel:+33643557067">Appeler</a>
+          <a class="text-decoration-none text-black btn btn-warning" role="button" href="assets/document/CV.pdf">Mon cv papier</a>
+          <a href="https://github.com/Henri-ai"><i class="fa-brands fa-github fa-2xl"
+              style="color: #ffc107"></i></a>
+    </div>
+    <!-- fin contact -->
+  </footer>
 
-    <script src="assets/js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
