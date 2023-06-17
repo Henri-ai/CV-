@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name{
+    background-color: black;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+
+h1,h2,h3{
+    color:#FFC107;
+}
+
+hr {
+    background-color: #FFC107;
+    height: 2px;
+    font-weight: bolder;
+}
+
+p{
+    color: #FFC107;
+}
+
+.skillLogo{
+    height: 40px;
+    width: 40px;
+}
+
+.skillContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card{
+    transition: transform .1s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
